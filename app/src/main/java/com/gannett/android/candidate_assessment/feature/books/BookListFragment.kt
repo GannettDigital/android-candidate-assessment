@@ -9,7 +9,7 @@ import com.gannett.android.candidate_assessment.R
 
 //TODO: Display a list of books
 
-class BookListFragment : Fragment() {
+class BookListFragment : Fragment(R.layout.fragment_book_list) {
 
     private lateinit var recyclerView: RecyclerView
 
